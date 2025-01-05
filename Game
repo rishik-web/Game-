@@ -1,0 +1,94 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My 3D Battle Royale Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        .hero {
+            background: url('your-game-image.jpg') no-repeat center center/cover;
+            height: 300px;
+            color: white;
+            text-align: center;
+            padding-top: 100px;
+            font-size: 2em;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My 3D Battle Royale Game</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#download">Download</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        Welcome to the ultimate battle royale experience!
+    </section>
+
+    <section id="about">
+        <h2>About the Game</h2>
+        <p>This is a 3D battle royale game inspired by Free Fire and PUBG. Experience intense action and strategic gameplay.</p>
+    </section>
+
+    <section id="features">
+        <h2>Features</h2>
+        <ul>
+            <li>Realistic 3D graphics</li>
+            <li>Multiplayer mode</li>
+            <li>Large maps with diverse terrains</li>
+            <li>Customizable characters</li>
+        </ul>
+    </section>
+
+    <section id="download">
+        <h2>Download</h2>
+        <p>Coming soon! Stay tuned for updates.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 My 3D Battle Royale Game</p>
+    </footer>
+</body>
+</html>
